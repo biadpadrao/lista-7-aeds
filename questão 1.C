@@ -16,7 +16,7 @@ typedef struct Pessoa {
 } Pessoa;
 
 int main(void) {
-  int n = 5;
+  int n = 40;
   Pessoa p[n] ;
   for (int i=0;i<n;i++){
     printf("\nDigite seu nome: ");
