@@ -4,7 +4,7 @@ o telefone das lojas cujo preço estava abaixo da média. */
 
 #include <stdio.h> 
 
-int n = 3;
+int n = 15;
 
 typedef struct Loja {
   char nome[100];
