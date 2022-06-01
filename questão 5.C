@@ -20,6 +20,7 @@ int main(void) {
     fgets (V[i].endereco,200,stdin);
     printf ("Telefone do cliente: ");
     scanf ("%d", &V[i].telefone);
+    getchar();
   }
   printf ("\n\nInformações dos cadastrados:\n");
   for (int i = 0; i < n; i++) {
