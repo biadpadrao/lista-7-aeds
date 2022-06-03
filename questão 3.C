@@ -17,7 +17,6 @@ typedef struct Cadastro {
 
 void pagar(Cadastro *c) {
   for (int i = 0; i < n; i++) {
-   
     if (c[i].pag == 'S') {
       if (c[i].horas > 20)
         c[i].valor = (2.5 * (c[i].horas - 20)) + 75; // 2,50 por hora excedida das 20 primeiras + 35 + 40
